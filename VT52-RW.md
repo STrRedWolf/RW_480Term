@@ -13,24 +13,24 @@ TAB | Move right to 8*N+1
 
 ## Basic escapes
 
-ESC + | Description
-:-----|:--------------------------------
-A | Move up 1 line, no scroll
-B | Move down 1 line, no scroll
-C | Move right 1 char, no scroll
-D | Move left 1 char, no scroll
-F | Graphics char set
-G | Regular char set
-H | Cursor to 1,1
-I | Move up 1 line, scroll screen down on first line.
-J | Clear from cursor to end of screen
-K | Clear from cursor to end of line
-L | Insert line at cursor (scroll down from this line down)
-M | Remove line at cursor (scroll up from line down)
-Y r c | Move to c,r (encoded)
-Z | ID by sending "ESC / K" back.
-= | Alternate Keypad
- > | Normal Keypad
+|ESC + | Description
+|:-----|:--------------------------------
+|A | Move up 1 line, no scroll
+|B | Move down 1 line, no scroll
+|C | Move right 1 char, no scroll
+|D | Move left 1 char, no scroll
+|F | Graphics char set
+|G | Regular char set
+|H | Cursor to 1,1
+|I | Move up 1 line, scroll screen down on first line.
+|J | Clear from cursor to end of screen
+|K | Clear from cursor to end of line
+|L | Insert line at cursor (scroll down from this line down)
+|M | Remove line at cursor (scroll up from line down)
+|Y r c | Move to c,r (encoded)
+|Z | ID by sending "ESC / K" back.
+|= | Alternate Keypad
+| > | Normal Keypad
 
 ## Expanded ESC set, Atari ST
 
