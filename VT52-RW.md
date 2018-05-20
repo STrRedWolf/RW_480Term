@@ -30,7 +30,7 @@ M | Remove line at cursor (scroll up from line down)
 Y r c | Move to c,r (encoded)
 Z | ID by sending "ESC / K" back.
 = | Alternate Keypad
-> | Normal Keypad
+ > | Normal Keypad
 
 ## Expanded ESC set, Atari ST
 
