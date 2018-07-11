@@ -40,9 +40,13 @@ E | Atari ST | Same as sequence "ESC H ESC J" (clear screen)
 b # | Atari ST | Change to forecolor #
 c # | Atari ST | Change to backcolor #
 
-## Expanded ESC set, RW Pocket Term
+## RW Pocket Term
+
+RW Pocket Term uses more ESC commands.
 
 Parameters are Base85 encoded
+
+### Extended codes
 
 ESC + | Description
 :-----|:--------------------
@@ -58,5 +62,6 @@ V |
 W |
 X rr cc | Move to cc,rr
 
-## Paint Mode, RW Pocket Term
+### Paint Mode
 
+TBD
